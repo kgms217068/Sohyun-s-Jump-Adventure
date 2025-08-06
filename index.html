@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>소현 왕자의 점프 대모험</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    canvas { display: block; }
+    #leftBtn, #rightBtn {
+      position: fixed;
+      bottom: 30px;
+      width: 60px;
+      height: 60px;
+      font-size: 24px;
+      opacity: 0.7;
+      z-index: 10;
+    }
+    #leftBtn { left: 20px; }
+    #rightBtn { right: 20px; }
+  </style>
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+  <button id="leftBtn">◀</button>
+  <button id="rightBtn">▶</button>
+
+  <script src="game.js"></script>
+</body>
+</html>
