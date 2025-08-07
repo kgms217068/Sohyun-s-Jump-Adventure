@@ -10,3 +10,14 @@
 
 #leftBtn { left: 20px; }
 #rightBtn { right: 20px; }
+
+body {
+  margin: 0;
+  overflow: hidden;
+  
+}
+canvas {
+  display: block;
+  margin: 0 auto;
+  
+}
